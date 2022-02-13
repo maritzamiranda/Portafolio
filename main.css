@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+body, html {
+    height: calc(100% - 2em);
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffbcad+0,ff6a2a+100 */
+background: #ffbcad; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ffbcad 0%, #ff6a2a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ffbcad 0%,#ff6a2a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ffbcad 0%,#ff6a2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbcad', endColorstr='#ff6a2a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.topnav {
+    background-color: #fae8e0;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #9c9892;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: Open Sans Extra Bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #fae8e0;
+    color: black;
+  }
+main{
+  padding: 4em;
+  background: #fae8e0 url('../images/bg.svg') no-repeat bottom right;
+  background-size: 70%;
+}
+.cta {
+    display: block;
+    color: #fff;
+    background: #ffbcad;
+    text-decoration: none;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 0;
+}
